@@ -1,5 +1,4 @@
 public class NumberGenerator implements Runnable {
-    private Thread t;
     @Override
     public void run() {
         for (int i =0; i < 10; i++)
